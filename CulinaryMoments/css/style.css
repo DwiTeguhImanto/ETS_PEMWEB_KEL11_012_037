@@ -9,6 +9,20 @@ body {
     font-family: 'Uchen', serif;
 }
 
+#carouselExampleIndicators .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 80vh;
+    width: 100vw;
+    margin-top: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    #carouselExampleIndicators .carousel-item img {
+      height: 50vh;
+    }
+  }
+
 /* carousel css */
 .carousel{
     box-shadow: 1px 1px 4px 1px rgba(58, 43, 43, 0.5);
